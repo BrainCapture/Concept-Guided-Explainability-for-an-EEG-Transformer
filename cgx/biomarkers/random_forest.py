@@ -252,8 +252,8 @@ def iterative_feature_pruning(
         logger.info("Test F1: %.4f", f1_test)
         logger.info("Best Params: %s", best_model_params)
 
-        if f1_test > best_f1:
-            best_f1 = f1_test
+        if f1_val > best_f1:
+            best_f1 = f1_val
             best_subset = current_features.copy()
             best_params = best_model_params
 
