@@ -1,0 +1,17 @@
+# LinearHeadBENDR fine-tuning on TUAB 60-s windows (Sec. III-B).
+# Usage: python scripts/finetune_transformer.py --config configs/finetune_tuab_60s.yaml --seed <seed> --name <name>
+dataset_train_path: data/tuh_eeg_abnormal/preprocessed_60.0_clean/train
+dataset_eval_path: data/tuh_eeg_abnormal/preprocessed_60.0_clean/eval
+encoder_path: pretrained_models/bendr_tuh_02_2025.ckpt
+name: tuh_eeg_tuab_60.0_clean_finetuned
+out_dir: model_weights/finetuned
+batch_size: 32
+num_workers: 8
+num_epochs: 30
+seed: 12
+n_device: 1
+device: cuda
+out_features: 2
+downsample_majority: false
+upsample_minority: false
+freeze_encoder: false

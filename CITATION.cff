@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper below."
+title: "Concept-Guided Explainability for a Transformer in EEG Abnormality Detection"
+license: MIT
+repository-code: "https://github.com/BrainCapture/Concept-Guided-Explainability-for-an-EEG-Transformer"
+authors:
+  - family-names: David
+    given-names: Florian
+  - family-names: Lehn-Schiøler
+    given-names: William
+  - family-names: Spicher
+    given-names: Nicolai
+preferred-citation:
+  type: article
+  title: "Concept-Guided Explainability for a Transformer in EEG Abnormality Detection"
+  year: 2026
+  authors:
+    - family-names: David
+      given-names: Florian
+    - family-names: Lehn-Schiøler
+      given-names: William
+    - family-names: Spicher
+      given-names: Nicolai

@@ -1,0 +1,24 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.ipynb_checkpoints/
+.DS_Store
+
+# Data, weights, and results are never committed (TUH EEG may not be redistributed)
+data/
+results/
+model_weights/
+lightning_logs/
+wandb/
+*.edf
+*.hdf5
+*.ckpt
+*.pkl
+df_temp_*.pkl
+
+# Paper draft
+*.pdf
+
+# Archives of private working files
+*.zip

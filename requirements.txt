@@ -1,0 +1,30 @@
+# Core scientific stack (versions match the environment used for the paper where known)
+numpy>=1.26,<2.3
+pandas==2.2.3
+scipy==1.15.2
+scikit-learn==1.6.1
+statsmodels==0.14.4
+matplotlib==3.10.1
+seaborn==0.13.2
+networkx==3.4.2
+umap-learn==0.5.7
+tqdm==4.67.1
+joblib==1.4.2
+h5py==3.13.0
+pyyaml==6.0.2
+ipython>=8.35
+
+# EEG processing and biomarkers
+mne==1.9.0
+edfio==0.4.8
+pyprep==0.4.3
+fooof==1.1.0
+antropy==0.1.9
+shap==0.47.1
+
+# Transformer and TCAV
+torch>=2.5,<2.6  # torch.load defaults change in 2.6
+pytorch-lightning>=2.5,<2.6
+torchmetrics>=1.6
+captum==0.8.0
+jsonargparse>=4.40
